@@ -1,0 +1,19 @@
+::host{
+  --slds-c-button-brand-color-background: rgb(75, 77, 75);
+  --slds-c-button-brand-color-border: rgb(75, 77, 75);
+}
+
+.confirm{
+  --slds-c-button-brand-color-background: rgb(224, 150, 2);
+  --slds-c-button-brand-color-border: rgb(224, 150, 2);
+}
+
+.alert{
+  --slds-c-button-brand-color-background: red;
+  --slds-c-button-brand-color-border: red;
+}
+
+.prompt{
+  --slds-c-button-brand-color-background: blue;
+  --slds-c-button-brand-color-border: blue;
+}

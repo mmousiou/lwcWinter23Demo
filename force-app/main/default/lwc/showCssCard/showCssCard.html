@@ -1,0 +1,10 @@
+<template>
+  <lightning-card if:true={showApp} title="Buttons Css">
+    <div slot="actions">
+      <lightning-button label="Close" onclick={closeCard}></lightning-button>
+    </div>
+    <div class="slds-m-around_medium"> 
+      <lightning-formatted-rich-text value={text}></lightning-formatted-rich-text>
+    </div>
+  </lightning-card>
+</template>

@@ -1,0 +1,12 @@
+<template>
+  <lightning-card title="Custom Modal extending lightning-modal-*">
+    <div class="slds-p-around_medium">
+      <div class="slds-text-heading_small">Press the button to open the modal.</div>
+      <lightning-pill if:true={cancelPressed} label="Cancel button was pressed!!" onremove={handleRemove}></lightning-pill>
+      <lightning-pill if:true={okPressed} label="Ok button was pressed!!" onremove={handleRemove}></lightning-pill>
+      <div class="slds-align_absolute-center slds-m-top_medium">
+        <lightning-button variant="brand" label="Show modal" aria-haspopup="modal" onclick={openModal}></lightning-button>
+      </div>
+    </div>
+  </lightning-card>
+</template>

@@ -1,0 +1,17 @@
+<template>
+  <lightning-card if:true={wiredAccounts.error} title="No data">
+  </lightning-card>
+  <lightning-card title="Select an Account">
+    <div class="slds-var-p-around_small">
+        <!-- sldsValidatorIgnoreNextLine -->
+        <lightning-datatable
+            key-field="id"
+            data={wiredAccounts.data}
+            show-row-number-column
+            columns={columnsList}
+            max-row-selection="1"
+            onrowselection={handleRowSelection}>
+        </lightning-datatable>
+    </div>
+  </lightning-card>
+</template>

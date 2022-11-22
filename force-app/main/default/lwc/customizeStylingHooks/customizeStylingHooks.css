@@ -1,0 +1,9 @@
+.myLightningButton {
+  --slds-c-button-brand-color-background: rgb(36, 225, 36);
+  --slds-c-button-brand-color-border: rgb(36, 225, 36);
+}
+
+.myButton {
+  --slds-c-button-brand-color-background: purple;
+  --slds-c-button-brand-color-border: purple;
+}
