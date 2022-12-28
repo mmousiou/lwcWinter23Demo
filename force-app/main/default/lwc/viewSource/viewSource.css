@@ -1,0 +1,19 @@
+:host {
+  text-align: left;
+}
+
+.description {
+  /* Use custom styling hook with a fallback value */
+  color: var(--source-text-color, #706b70);
+}
+
+a {
+  /* Use custom styling hook with no fallback value */
+  color: #da06da;
+}
+a:hover {
+  /* Use custom styling hook with no fallback value */
+  color: #0efd02;
+  text-decoration-line: underline;
+  /* color: var(--source-link-color-hover); */
+}

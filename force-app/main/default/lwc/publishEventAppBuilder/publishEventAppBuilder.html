@@ -3,15 +3,25 @@
   </lightning-card>
   <lightning-card title="Select an Account">
     <div class="slds-var-p-around_small">
-        <!-- sldsValidatorIgnoreNextLine -->
-        <lightning-datatable
-            key-field="id"
-            data={wiredAccounts.data}
-            show-row-number-column
-            columns={columnsList}
-            max-row-selection="1"
-            onrowselection={handleRowSelection}>
-        </lightning-datatable>
+      <!-- sldsValidatorIgnoreNextLine -->
+      <lightning-datatable
+        key-field="id"
+        data={wiredAccounts.data}
+        show-row-number-column
+        columns={columnsList}
+        max-row-selection="1"
+        onrowselection={handleRowSelection}
+      >
+      </lightning-datatable>
     </div>
+    <c-view-source source="lwc/publishEventAppBuilder" slot="footer">
+      Use App Builder to
+      <a
+        href="https://help.salesforce.com/s/articleView?id=release-notes.rn_lwc_dynamic_interactions.htm&type=5&release=234"
+        target="_blank"
+        >Expose Event</a
+      >
+      on account selection.
+    </c-view-source>
   </lightning-card>
 </template>

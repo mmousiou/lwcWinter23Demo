@@ -1,10 +1,31 @@
 <template>
   <lightning-card title="Custom Modal with lightning-record-form">
     <div class="slds-p-around_medium">
-      <div class="slds-text-heading_small">Press button to create new Account</div>
+      <div class="slds-text-heading_small">
+        Press button to create new Account
+      </div>
       <div class="slds-align_absolute-center slds-m-top_medium">
-        <lightning-button variant="brand" label="New" onclick={openModal}></lightning-button>
+        <lightning-button
+          variant="brand"
+          label="New"
+          onclick={openModal}
+        ></lightning-button>
       </div>
     </div>
+    <c-view-source source="lwc/editModalWrapper" slot="footer">
+      Create a modal using
+      <a
+        href="https://developer.salesforce.com/docs/component-library/bundle/lightning-modal/documentation"
+        target="_blank"
+        >lightning/modal</a
+      >
+      module with a record form as the body using
+      <a
+        href="https://developer.salesforce.com/docs/component-library/bundle/lightning-record-form/documentation"
+        target="_blank"
+        >lightning-record-form</a
+      >
+      component.
+    </c-view-source>
   </lightning-card>
 </template>

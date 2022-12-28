@@ -1,9 +1,44 @@
 <template>
   <lightning-card title="New Alert, Confirm, and Prompt Modules and Components">
     <div class="slds-p-around_medium slds-align_absolute-center">
-      <lightning-button variant="brand" label="Confirm" onclick={confirm} class="confirm slds-m-right_x-small"></lightning-button>
-      <lightning-button variant="brand" label="Alert" onclick={alert} class="alert slds-m-right_x-small"></lightning-button>
-      <lightning-button variant="brand" label="Prompt" onclick={prompt} class="prompt"></lightning-button>
+      <lightning-button
+        variant="brand"
+        label="Confirm"
+        onclick={confirm}
+        class="confirm slds-m-right_x-small"
+      ></lightning-button>
+      <lightning-button
+        variant="brand"
+        label="Alert"
+        onclick={alert}
+        class="alert slds-m-right_x-small"
+      ></lightning-button>
+      <lightning-button
+        variant="brand"
+        label="Prompt"
+        onclick={prompt}
+        class="prompt"
+      ></lightning-button>
     </div>
-  </lightning-card>   
+    <c-view-source source="lwc/recordCardQuickFiles" slot="footer">
+      Create alert, confirm, prompt modals using
+      <a
+        href="https://developer.salesforce.com/docs/component-library/bundle/lightning-alert"
+        target="_blank"
+        >lightning/alert</a
+      >
+      ,
+      <a
+        href="https://developer.salesforce.com/docs/component-library/bundle/lightning-confirm/documentation"
+        target="_blank"
+        >lightning/confirm</a
+      >,
+      <a
+        href="https://developer.salesforce.com/docs/component-library/bundle/lightning-prompt/documentation"
+        target="_blank"
+        >lightning/prompt</a
+      >
+      modules.
+    </c-view-source>
+  </lightning-card>
 </template>
