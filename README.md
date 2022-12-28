@@ -3,6 +3,7 @@
 In this repository you can find the lwc components demonstrated in November Salesforce Developer Meeting in WEE, Thessaloniki. Follow the instructions to deploy the code in your org.
 
 >You can watch a live preview of the app here: [App Demo](https://youtu.be/xzwrzU240Uk)
+
 >Disclaimer: Most of the instructions in this repo are based to lwc-reciepes repo https://github.com/trailheadapps/lwc-recipes.
 
 ## Table of contents
