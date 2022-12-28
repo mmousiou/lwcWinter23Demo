@@ -2,7 +2,7 @@
 
 In this repository you can find the lwc components demonstrated in November Salesforce Developer Meeting in WEE, Thessaloniki. Follow the instructions to deploy the code in your org.
 
-demoWinter23.mp4
+[https://youtu.be/OmIb8koaHdI](https://youtu.be/xzwrzU240Uk)
 
 <div>
     <img src="/disclaimer.jfif" align="left" alt="Disclaimer" style="width:100px;"/>
