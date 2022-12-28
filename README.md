@@ -1,16 +1,14 @@
 # Salesforce Winter '23 new release notes
 
-In this repository you can find the lwc components demonstrated in November Salesforce Developer Meeting in WEE, Thessaloniki.
+In this repository you can find the lwc components demonstrated in November Salesforce Developer Meeting in WEE, Thessaloniki. Follow the instructions to deploy the code in your org.
 
 <div>
     <img src="/disclaimer.jfif" align="left" alt="Disclaimer" style="width:100px;"/>
-    Most of the following instructions are based to lwc-reciepes repo https://github.com/trailheadapps/lwc-recipes .
+    Most of the instructions in this repo are based to lwc-reciepes repo https://github.com/trailheadapps/lwc-recipes .
     <br/>
     <br/> 
     <br/>
 </div>
-
-> authors: Bitzenis Stefanos, Mousiou Maria
 
 ## Table of contents
 
@@ -19,6 +17,7 @@ In this repository you can find the lwc components demonstrated in November Sale
 - [Installing the app using a Developer Edition Org or a Trailhead Playground](#installing-the-app-using-a-developer-edition-org-or-a-trailhead-playground): Useful when tackling Trailhead Badges or if you want the app deployed to a more permanent environment than a Scratch org.
 
 - [Optional installation instructions](#optional-installation-instructions)
+- [Info](#info)
 
 ## Installing the app using a Scratch Org
 
@@ -120,9 +119,7 @@ Make sure to start from a brand-new environment to avoid conflicts with previous
 
 ## Optional Installation Instructions
 
-code tours
-
-Run
+Run this command in a terminal [npm](https://docs.npmjs.com/)
 
 ```
 npm install
@@ -138,3 +135,6 @@ npm install
 ### Code linting
 
 [ESLint](https://eslint.org/) is a popular JavaScript linting tool used to identify stylistic errors and erroneous constructs. To use ESLint with Visual Studio Code, install [this extension](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode-lwc) from the Visual Studio Code Marketplace. The [.eslintignore](/.eslintignore) file is provided as part of this repository to exclude specific files from the linting process in the context of Lightning Web Components development.
+
+## Info
+> authors: Bitzenis Stefanos, Mousiou Maria
