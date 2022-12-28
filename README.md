@@ -12,8 +12,6 @@ In this repository you can find the lwc components demonstrated in November Sale
 
 - [Optional installation instructions](#optional-installation-instructions)
 
-- [Code tours](#code-tours)
-
 ## Installing the app using a Scratch Org
 
 1. Set up your environment. Follow the steps in the [Quick Start: Lightning Web Components](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/) Trailhead project. The steps include:
