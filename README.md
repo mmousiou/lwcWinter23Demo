@@ -6,6 +6,7 @@ In this repository you can find the lwc components demonstrated in November Sale
     <img src="/disclaimer.jfif" align="left" alt="Disclaimer" style="width:100px;"/>
     Most of the following instructions are based to lwc-reciepes repo https://github.com/trailheadapps/lwc-recipes instructions.
     <br/>
+    <br/> 
     <br/>
 </div>
 
