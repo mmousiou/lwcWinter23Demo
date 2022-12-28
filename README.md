@@ -112,7 +112,7 @@ Make sure to start from a brand-new environment to avoid conflicts with previous
 
 ## Optional Installation Instructions
 
-npm install
+Run npm install
 
 ### Code formatting
 
