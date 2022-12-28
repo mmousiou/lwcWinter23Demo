@@ -3,8 +3,8 @@
 In this repository you can find the lwc components demonstrated in November Salesforce Developer Meeting in WEE, Thessaloniki. Follow the instructions to deploy the code in your org.
 
 <div>
-   <video width="320" height="240" controls>
-   <source src="/demoWinter23.mp4" type="video/mp4">
+   <video width="200" controls>
+      <source src="/demoWinter23.mp4" type="video/mp4">
    </video>
 </div>
 
