@@ -2,6 +2,14 @@
 
 In this repository you can find the lwc components demonstrated in November Salesforce Developer Meeting in WEE, Thessaloniki.
 
+<div>
+    <img src="/disclaimer.jfif"/>
+    Most of the following instructions are based to lwc-reciepes repo https://github.com/trailheadapps/lwc-recipes instructions.
+    <br/>
+    <br/>
+    <br/>
+</div>
+
 > authors: Bitzenis Stefanos, Mousiou Maria
 
 ## Table of contents
@@ -111,9 +119,11 @@ Make sure to start from a brand-new environment to avoid conflicts with previous
 1. In App Launcher, select the **Winter '23 release notes** app.
 
 ## Optional Installation Instructions
+
 code tours
 
-Run 
+Run
+
 ```
 npm install
 ```
