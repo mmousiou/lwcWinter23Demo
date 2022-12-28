@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#9A78EA</headerColor>
+        <logo>salesforcelogo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Winter &apos;23 release notes</label>
+    <navType>Standard</navType>
+    <tabs>Lightning_Modal</tabs>
+    <tabs>Expose_event_in_app_builder</tabs>
+    <tabs>Styling_Hooks</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Winter_23_release_notes_UtilityBar</utilityBar>
+</CustomApplication>
