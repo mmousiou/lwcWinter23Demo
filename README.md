@@ -3,6 +3,12 @@
 In this repository you can find the lwc components demonstrated in November Salesforce Developer Meeting in WEE, Thessaloniki. Follow the instructions to deploy the code in your org.
 
 <div>
+   <video width="320" height="240" controls>
+   <source src="/demoWinter23.mp4" type="video/mp4">
+   </video>
+</div>
+
+<div>
     <img src="/disclaimer.jfif" align="left" alt="Disclaimer" style="width:100px;"/>
     Most of the instructions in this repo are based to lwc-reciepes repo https://github.com/trailheadapps/lwc-recipes .
     <br/>
@@ -137,4 +143,5 @@ npm install
 [ESLint](https://eslint.org/) is a popular JavaScript linting tool used to identify stylistic errors and erroneous constructs. To use ESLint with Visual Studio Code, install [this extension](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode-lwc) from the Visual Studio Code Marketplace. The [.eslintignore](/.eslintignore) file is provided as part of this repository to exclude specific files from the linting process in the context of Lightning Web Components development.
 
 ## Info
+
 > authors: Bitzenis Stefanos, Mousiou Maria
