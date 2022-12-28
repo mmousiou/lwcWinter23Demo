@@ -111,8 +111,12 @@ Make sure to start from a brand-new environment to avoid conflicts with previous
 1. In App Launcher, select the **Winter '23 release notes** app.
 
 ## Optional Installation Instructions
+code tours
 
-Run npm install
+Run 
+```
+npm install
+```
 
 ### Code formatting
 
