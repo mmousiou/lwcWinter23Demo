@@ -3,7 +3,7 @@
 In this repository you can find the lwc components demonstrated in November Salesforce Developer Meeting in WEE, Thessaloniki.
 
 <div>
-    <img src="/disclaimer.jfif"/>
+    <img src="/disclaimer.jfif" style="width:50px;"/>
     Most of the following instructions are based to lwc-reciepes repo https://github.com/trailheadapps/lwc-recipes instructions.
     <br/>
     <br/>
