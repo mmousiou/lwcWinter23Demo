@@ -18,8 +18,8 @@ In this repository you can find the lwc components demonstrated in November Sale
 
 <p align="left">
   <br />
-  <a href="https://youtu.be/k83JUGHXsBg">
-    <img src="/introPic.PNG" width="500px" alt="Demo" />
+  <a href="https://youtu.be/k83JUGHXsBg"  target="_blank">
+    <img src="/introPic2.PNG" width="500px" alt="Demo" />
   </a>
 </p>
 
