@@ -42,6 +42,7 @@ In this repository you can find the lwc components demonstrated in November Sale
 
    ```
    git clone https://github.com/mmousiou/lwcWinter23Demo.git
+   cd lwcWinter23Demo
    ```
 
 1. Create a scratch org and provide it with an alias (**winter-23-release-notes** in the command below):
