@@ -2,18 +2,26 @@
 
 In this repository you can find the lwc components demonstrated in November Salesforce Developer Meeting in WEE, Thessaloniki. Follow the instructions to deploy the code in your org.
 
->You can watch a live preview of the app here: [App Demo](https://youtu.be/xzwrzU240Uk)
-
 >Disclaimer: Most of the instructions in this repo are based to lwc-reciepes repo https://github.com/trailheadapps/lwc-recipes.
 
 ## Table of contents
 
+- [Demo](#demo)
 - [Installing the app using a Scratch Org](#installing-the-app-using-a-scratch-org): This is the recommended installation option. Use this option if you are a developer who wants to experience the app and the code.
 
 - [Installing the app using a Developer Edition Org or a Trailhead Playground](#installing-the-app-using-a-developer-edition-org-or-a-trailhead-playground): Useful when tackling Trailhead Badges or if you want the app deployed to a more permanent environment than a Scratch org.
 
 - [Optional installation instructions](#optional-installation-instructions)
 - [Info](#info)
+
+## Demo
+
+<p align="left">
+  <br />
+  <a href="https://youtu.be/k83JUGHXsBg">
+    <img src="/introPic.PNG" width="500px" alt="Demo" />
+  </a>
+</p>
 
 ## Installing the app using a Scratch Org
 
